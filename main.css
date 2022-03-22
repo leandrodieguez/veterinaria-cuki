@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(#6e9dcc, #197d99);   
+}
+
+.logo-title {
+    margin: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #182635;
+}
+
+h1 {
+    color: #182635;
+}
+
+.conteiner {
+    width: 100%;
+    margin: auto;
+}
+
+.nav-main {
+    font-size: 20px ;
+    justify-content: end;
+}
+.nav-main ul{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: #182635 solid 2px;
+}
+
+.text-a {
+    font-size: 25px;
+    text-align: center;
+    margin: 5rem;
+}
+
+.text-a span {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+.service {
+    font-size: 35px;
+    text-align: center;
+}
+
+.service h2 {
+    color: #2c3e50;
+}
+
+.cards-service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin: 50px;
+}
+
+.cards-service img {
+    width: 100%;
+    height: 225px;
+    border: #2c3e50 solid 2px;
+    border-radius: 5px;
+}
+
+.cards-service p {
+    font-size: 20px;
+}
+
+.social {
+    margin: 50px;
+}
+
+.link {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link p {
+    font-size: 25px;
+}
+
+.link a i {
+    font-size: 35px;
+
+}    
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px){
+    .cards-service {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .text-a {
+        font-size: 23px;
+    }
+
+    .text-a span {
+        font-size: 30px;
+    }
+}
